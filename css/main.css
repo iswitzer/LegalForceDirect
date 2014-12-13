@@ -99,6 +99,9 @@ textarea {
 
 body {
     background-color: #101745;
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -109,6 +112,11 @@ nav li {
     padding: 5px;
     margin-top: 20px;
     background-color: #ffed84;
+
+}
+
+nav a {
+    text-decoration: none;
     color: #101745;
 }
 
@@ -132,6 +140,11 @@ h1 {
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
+}
+
+h2{
+    font-family: Marcellus, Times, serif;
+    margin-top: 5px;
 }
 
 label {
@@ -158,17 +171,8 @@ input {
 }
 
 
-
-div {
-    display:inline-block;
-    text-align: left;
-}
-
 h4 {
-    display: inline-block;
-    width: 200px;
-    text-align: center;
-    margin-right: 35px;
+    margin-top: 45px;
 }
 
 fieldset {
@@ -186,13 +190,27 @@ legend {
 
 #wrapper {
     width: 85%;
-    max-width: 1024px;
+    max-width: 800px;
     margin:10px auto 10px auto;
     background-color: #e6e6e6;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #000000;
     padding: 10px;
     display: block;
+}
+
+img {
+    width: auto;
+    max-width: 200px;
+    height: auto;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+main {
+    text-align: center;
 }
 
 
