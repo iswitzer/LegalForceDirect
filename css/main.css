@@ -207,7 +207,7 @@ main {
     text-align: center;
 }
 
-script {
+#form {
    width: 100%;
    max-width: 725px;
    margin: 0 auto;
