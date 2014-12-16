@@ -182,7 +182,7 @@ img {
 
 .overlaytxt {
    position: absolute;
-   bottom: 3px;
+   bottom: 8px;
    width: 150px;
    background-color: #ffed84;
    color: #101475;
@@ -193,8 +193,7 @@ img {
    font-style: italic;
    font-weight: bold;
    margin: 0 auto;
-   left: 0;
-   right: 0;
+   left: 25px;
 }
 
 p {
