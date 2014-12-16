@@ -163,7 +163,7 @@ h4 {
 }
 
 img {
-    width: 50%;
+    width: 100%;
     max-width: 200px;
     height: auto;
 }
@@ -180,7 +180,7 @@ img {
     text-align: center;
 }
 
-.txtoverlay p {
+.overlaytxt {
    display: inline-block;
    position: absolute;
    bottom: 3px;
