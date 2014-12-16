@@ -178,12 +178,16 @@ img {
     border-radius: 5px;
     border: solid 2px #101745;
     text-align: center;
+    overflow: hidden;
 }
 
 .overlaytxt {
    display: inline-block;
    position: absolute;
    bottom: 3px;
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
    background-color: #ffed84;
    color: #101475;
    border: solid 1px #000000;
