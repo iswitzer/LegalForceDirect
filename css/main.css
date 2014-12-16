@@ -177,7 +177,6 @@ img {
     background-image: url("../img/NewBlonde2.jpg");
     border-radius: 5px;
     border: solid 2px #101745;
-    text-align: center;
     overflow: hidden;
 }
 
@@ -185,11 +184,7 @@ img {
    display: inline-block;
    position: absolute;
    bottom: 3px;
-   width: 75%;
-   margin-left: auto;
-   margin-right: auto;
-   left: 0;
-   right: 0;
+   width: 150px;
    background-color: #ffed84;
    color: #101475;
    border: solid 1px #000000;
