@@ -207,7 +207,11 @@ main {
     text-align: center;
 }
 
-
+script {
+   width: 100%;
+   max-width: 725px;
+   margin: 0 auto;
+}
 
 
 
