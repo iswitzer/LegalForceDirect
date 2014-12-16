@@ -183,11 +183,16 @@ img {
 .overlaytxt {
    display: inline-block;
    position: absolute;
-   bottom: 3px;
+   bottom: .3em;
    width: 150px;
    background-color: #ffed84;
    color: #101475;
    border: solid 1px #000000;
+   border-radius: 3px;
+   padding: 3px;
+   font-size: .6em;
+   font-style: italic;
+   font-weight: bold;
 }
 
 p {
