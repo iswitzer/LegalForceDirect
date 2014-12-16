@@ -182,7 +182,7 @@ img {
 
 .overlaytxt {
    position: absolute;
-   bottom: 1px;
+   bottom: 3px;
    width: 150px;
    background-color: #ffed84;
    color: #101475;
