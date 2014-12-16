@@ -181,7 +181,6 @@ img {
 }
 
 .overlaytxt {
-   display: inline-block;
    position: absolute;
    bottom: 1px;
    width: 150px;
