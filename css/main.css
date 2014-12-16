@@ -177,7 +177,6 @@ img {
     background-image: url("../img/NewBlonde2.jpg");
     border-radius: 5px;
     border: solid 2px #101745;
-    text-align: center;
     overflow: hidden;
 }
 
@@ -193,6 +192,7 @@ img {
    font-size: .8em;
    font-style: italic;
    font-weight: bold;
+   margin: 0 auto;
 }
 
 p {
