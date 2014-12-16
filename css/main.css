@@ -183,7 +183,7 @@ img {
 .overlaytxt {
    display: inline-block;
    position: absolute;
-   bottom: .3em;
+   bottom: 1px;
    width: 150px;
    background-color: #ffed84;
    color: #101475;
