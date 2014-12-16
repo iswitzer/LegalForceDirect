@@ -168,6 +168,27 @@ img {
     height: auto;
 }
 
+.txtoverlay {
+    display: inline-block;
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    position: relative;
+    background-image: url(../img/NewBlonde2.jpg);
+    border-radius: 5px;
+    border: solid 2px #101745;
+    text-align: center;
+}
+
+.txtoverlay p {
+   display: inline-block;
+   position: absolute;
+   bottom: 3px;
+   background-color: #ffed84;
+   color: #101475;
+   border: solid 1px #000000;
+}
+
 p {
     margin-bottom: 25px;
 }
