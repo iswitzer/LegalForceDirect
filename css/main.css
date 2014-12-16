@@ -174,7 +174,7 @@ img {
     max-width: 200px;
     height: auto;
     position: relative;
-    background-image: url(../img/NewBlonde2.jpg);
+    background-image: url("../img/NewBlonde2.jpg");
     border-radius: 5px;
     border: solid 2px #101745;
     text-align: center;
