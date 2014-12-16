@@ -188,6 +188,8 @@ img {
    width: 75%;
    margin-left: auto;
    margin-right: auto;
+   left: 0;
+   right: 0;
    background-color: #ffed84;
    color: #101475;
    border: solid 1px #000000;
