@@ -215,16 +215,16 @@ h2+p {
     padding: 10px;
 }
 
-p>a {
+#print {
     border: solid 1px #000000;
     border-radius: 3px;
-    width: 75px;
+    width: 100px;
     margin: 0 auto 5px auto;
     background-color: #ffed84;
     padding: 5px;
 }
 
-p:first-child a {
+#print a {
     text-decoration: none;
     color: #101475;
 }
