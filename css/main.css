@@ -182,15 +182,11 @@ img {
 }
 
 .overlaytxt {
-   position: absolute;
-   bottom: 8px;
-   left: 0;
-   right: 0;
-   width: 150px;
+   width: 100%;
    background-color: #ffed84;
    color: #101475;
-   border: solid 1px #000000;
-   border-radius: 3px;
+   border-top: solid 1px #000000;
+
    padding: 3px 2px 3px 2px;
    font-size: .8em;
    font-style: italic;
@@ -211,6 +207,26 @@ main {
    width: 100%;
    max-width: 725px;
    margin: 0 auto;
+}
+
+h2+p {
+    text-align: left;
+    text-indent: 25px;
+    padding: 10px;
+}
+
+p>a {
+    border: solid 1px #000000;
+    border-radius: 3px;
+    width: 75px;
+    margin: 0 auto 5px auto;
+    background-color: #ffed84;
+    padding: 5px;
+}
+
+p:first-child a {
+    text-decoration: none;
+    color: #101475;
 }
 
 
