@@ -168,6 +168,11 @@ img {
     height: auto;
 }
 
+a+img {
+   border:solid 2px #101745;
+   border-radius:5px;
+}
+
 .txtoverlay {
     display: inline-block;
     width: 50%;
