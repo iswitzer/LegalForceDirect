@@ -166,8 +166,11 @@ img {
     width: 100%;
     max-width: 200px;
     height: auto;
-    border: solid 2px #101475;
-    border-radius: 5px;
+}
+
+img[src=img/homepage-calendar.jpg] {
+   border: 2px solid #101745;
+   border-radius: 5px;
 }
 
 div img {
