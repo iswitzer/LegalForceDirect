@@ -168,7 +168,7 @@ img {
     height: auto;
 }
 
-img[src=img/homepage-calendar.jpg] {
+.border {
    border: 2px solid #101745;
    border-radius: 5px;
 }
