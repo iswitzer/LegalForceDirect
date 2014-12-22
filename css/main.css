@@ -109,29 +109,34 @@ body {
     padding: 0;
 }
 
+nav {
+    border-bottom: solid 5px #101745;
+    padding: 0 0 0 10px;
+    overflow: auto;
+}
+
 nav li {
-    display: inline-block;
+    display: inline;
     border-radius: 3px 3px 0 0;
     border: solid 1px #000000;
     border-bottom: none;
-    padding: 5px;
-    margin-top: 20px;
     background-color: #ffed84;
-
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+    float: left;
 }
 
 nav a {
     text-decoration: none;
     color: #101745;
+    display: inline-block;
+    width: 100px;
 }
 
 nav ul {
-    margin: 0;
-}
-
-nav {
-    border-bottom: solid 5px #101745;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    padding: 0;
 }
 
 header {
@@ -227,11 +232,6 @@ main {
     padding: 10px;
 }
 
-#form {
-   width: 100%;
-   max-width: 725px;
-   margin: 0 auto;
-}
 
 h2+p {
     text-align: left;
