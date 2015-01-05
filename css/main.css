@@ -185,14 +185,11 @@ img {
     width: 100%;
     max-width: 200px;
     height: auto;
+    border: 2px solid #101745;
+    border-radius: 5px;
 }
 
-.border {
-   border: 2px solid #101745;
-   border-radius: 5px;
-}
-
-div img {
+.noborder {
    border: none;
 }
 
@@ -253,7 +250,11 @@ h2+p {
     color: #101475;
 }
 
-
+footer {
+    font-size: .7em;
+    font-style: italic;
+    text-align: center;
+}
 
 
 
