@@ -253,11 +253,13 @@ footer, h5 {
     font-size: .75em;
     font-style: italic;
     text-align: center;
+    margin-bottom: 0;
 }
 
 footer p {
     font-size: .5em;
-    padding: 5px;
+    padding: 2px 5px;
+    margin-top: 0;
 }
 
 
