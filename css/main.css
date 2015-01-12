@@ -166,6 +166,10 @@ h2{
     margin-top: 5px;
 }
 
+h3, h4 {
+    clear: both;
+}
+
 h4 {
     margin-top: 45px;
 }
@@ -179,6 +183,7 @@ h4 {
     box-shadow: 3px 3px 3px #000000;
     padding-bottom: 10px;
     display: block;
+    margin-bottom: 50px;
 }
 
 img {
@@ -187,31 +192,37 @@ img {
     height: auto;
     border: 2px solid #101745;
     border-radius: 5px;
+    vertical-align: middle;
 }
 
 .noborder {
    border: none;
 }
 
-.txtoverlay {
+main>div {
+    vertical-align: middle;
+}
+
+figure {
     display: inline-block;
     width: 50%;
     max-width: 200px;
     height: auto;
     position: relative;
-    background-image: url("../img/NewBlonde2.jpg");
     border-radius: 5px;
     border: solid 2px #101745;
     overflow: hidden;
     text-align: center;
+    float: left;
+    margin: 10px;
+    vertical-align: middle;
 }
 
-.overlaytxt {
+figcaption {
    width: 100%;
    background-color: #ffed84;
    color: #101475;
    border-top: solid 1px #000000;
-
    padding: 3px 2px 3px 2px;
    font-size: .8em;
    font-style: italic;
@@ -220,8 +231,13 @@ img {
    left: 25px;
 }
 
+.floatright{
+    float: right;
+}
+
 p {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 main {
@@ -250,10 +266,15 @@ h2+p {
     color: #101475;
 }
 
-footer {
-    font-size: .7em;
+footer, h5 {
+    font-family: Trajan, Marcellus, Times, serif;
+    font-size: .75em;
     font-style: italic;
     text-align: center;
+}
+
+footer p {
+    font-size: .6em;
 }
 
 
