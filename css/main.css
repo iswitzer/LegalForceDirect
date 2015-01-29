@@ -263,6 +263,16 @@ footer p {
 }
 
 
+#first_9, #last_9, #first_19, #last_19, #first_84, #last_84 {
+    width : 130px;
+}
+
+.form-label.form-label-left {
+    width : 175px;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
