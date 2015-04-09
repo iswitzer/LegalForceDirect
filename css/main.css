@@ -254,8 +254,20 @@ main {
     text-align: center;
 }
 
+.preset {
+    border: none;
+    margin: 0 10px 0 10px;
+    background-color: #e6e6e6;
+}
+
 main > div {
     padding: 10px;
+}
+
+.whitebg{
+    background-color: #ffffff;
+    padding: 5px;
+    overflow: auto;
 }
 
 h2+p {
