@@ -181,6 +181,13 @@ h6 {
     font-size: .7em;
 }
 
+main > p {
+    background-color: #ffed84;
+    width: 100%;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}
+
 #wrapper {
     width: 85%;
     max-width: 850px;
@@ -245,9 +252,11 @@ p {
 
 main {
     text-align: center;
-    padding: 10px;
 }
 
+main > div {
+    padding: 10px;
+}
 
 h2+p {
     text-align: left;
